@@ -7,14 +7,32 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <p>Name: <br><input type="text"></p>
-        <p>Telephone Number: <br><input type="text"></p>
-        <p>Email: <br><input type="text"></p>
-        <p>Favorite color: <br><input type="color" name="" id=""></p>
-        <p>Date of Birth: <br><input type="datetime-local" name="" id=""></p>
-        <button>Submit</button>
-    </div>
-    
+    <table>
+        <tr>
+            <td><label for="emailTo">To</label></td>
+            <td><input type="text" name="" id="emailTo" value="Example Cafe" size="20"></td>
+        </tr>
+        <tr>
+            <td><label for="emailFrom">Your email</label></td>
+            <td><input type="text" name="" id="emailFrom" size="20" tabindex="1"></td>
+        </tr>
+        <tr>
+            <td><label for="emailBody">Message</label></td>
+            <td><textarea name="" id="emailBody" cols="30" rows="10" tabindex="2"></textarea></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td><label for="a">How did you hear of us</label></td>
+            <td><select name="" id="a"><option>Google</option>
+            <option>Yahoo</option></select></td>
+        </tr>
+        <tr>
+            <td><label for="b">Newsletter</label></td>
+            <td><input type="checkbox" name="" id="b">Ensure this box is checked if you would like to receive email updates</td>
+
+        </tr>
+    </table>
+    <button>Send message</button>
 </body>
 </html>
