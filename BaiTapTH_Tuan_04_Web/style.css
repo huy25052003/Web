@@ -104,3 +104,39 @@
     display: flex;
     padding: 5px;
 }
+#flex-member{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .member {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  #flex-chat{
+    margin-top: 30px;
+    display: flex;
+    justify-content: row;
+    margin-left: 35px;
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+}
+.boxchat{
+    width: 340px;
+    margin-left: 40px;
+    background-color: grey;
+}
+
+.typing{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
