@@ -1,0 +1,96 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    
+}.right div{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 15px;
+}.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search div{
+    padding: 10px;
+}.menu:hover{
+    color: aqua;
+    border-bottom: aqua solid 1px;
+}#body{
+    display: flex;
+    margin-left: 140px;
+}.product-title{
+    display: flex;
+    flex-direction: column;
+}.rating{
+    display: flex;
+    flex-direction: row;
+}#emote{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 795px;
+}.emote_items{
+    display: flex;
+    margin-left: 30px;
+}.img-product{
+    display: flex;
+    margin-left: 140px;
+    flex-direction: row;
+}.col-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.col-items{
+    display: flex;
+}.product-description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    width: 840px;
+}#description{
+    display: flex;
+    flex-direction: row;
+}.option{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    margin-left: 20px;
+}.option button{
+    width: 300px;
+    height: 40px;
+}
+.option div{
+    padding: 5px;
+}.more{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}.more-items{
+    display: flex;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
