@@ -93,4 +93,16 @@
     padding-right: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
+}.product-reviews{
+    display: flex;
+    margin-left: 140px;
+}#cmt{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    margin-left: 140px;
+    padding: 10px;
+}.user{
+        width: 500px;
+        margin-right: 100px;
 }
