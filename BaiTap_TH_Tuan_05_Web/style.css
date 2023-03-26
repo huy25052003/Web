@@ -106,3 +106,30 @@
         width: 500px;
         margin-right: 100px;
 }
+#related{
+    display: flex;
+    flex-direction: row;
+    width: 1180px;
+    margin-left: 140px;
+    justify-content: space-around;
+}
+.reproduct{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}#bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1180px;
+    margin-left: 140px;
+}#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 725px;
+}
